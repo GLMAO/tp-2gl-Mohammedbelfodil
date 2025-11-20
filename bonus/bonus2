@@ -1,0 +1,8 @@
+
+bonus2:
+
+Le code respecte globalement les principes SOLID : chaque classe a une responsabilité claire, les cours peuvent être étendus via
+ des décorateurs sans modification, et les dépendances se font via des interfaces.
+La seule légère violation potentielle concerne GestionnaireEmploiDuTemps qui gère à la fois la liste
+des cours et la notification des observateurs, ce qui pourrait être séparé en deux classes pour une stricte
+ conformité au SRP
